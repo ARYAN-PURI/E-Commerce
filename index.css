@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    padding:0px 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(0 248 133);
+}
+.icons{
+    display: flex;
+}
+.icons div{
+    padding:0px .6vw;
+}
+.header img{
+    width:25px;
+    background-color: white;
+    border:2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header .wel .dropdown{
+    display: inline-block;
+}
+nav{
+    position: sticky !important;
+    top:0px;
+    z-index:100 !important;
+}
+.dropdown-toggle{
+    padding:2px !important; 
+    background: transparent !important;
+    padding: 0.5px 5px !important;
+
+}
+.lang select{
+    border-radius: 10px;
+}
+.logo{
+    width:50px;
+}
+@media only screen and (max-width:500px){
+    .lang{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px){
+    .carousel-item img{
+        padding:0px 5px !important;
+        height:40vh !important;
+    }
+}
+.profile-icons span{
+    display: inline-block;
+    padding:0px 5px;
+    height: 25px;
+    cursor: pointer;
+}
+.carousel-item img{
+    padding:0px 30px;
+    height:85vh;
+}
+.featured h2{
+    text-align: center;
+    padding:20px 0px;
+
+}
+.card{
+    margin: auto;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top{
+    height: 300px;
+    align-content: center;
+}
+.im1{
+    background-image: url("im1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im2{
+    background-image: url("im2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.im3{
+    background-image: url("im3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im4{
+    background-image: url("im4.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im5{
+    background-image: url("im5.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im6{
+    background-image: url("im6.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im7{
+    background-image: url("im7.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im8{
+    background-image: url("im8.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im9{
+    background-image: url("im9.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im10{
+    background-image: url("im10.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im11{
+    background-image: url("im11.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.im12{
+    background-image: url("im12.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+       
+}
+.cards{
+    padding:0px 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:10px;
+}
+.contacts img{
+    border:2px solid white;
+    width:20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer{
+    margin-top: 10px;
+    background-color: rgb(36, 31, 31);
+    color: white;
+}
+footer h2{
+    text-align: center;
+    padding:20px 0px;
+}
+.contacts{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.end{
+    padding:20px 0px;
+    text-align: center;
+}
+.heding{
+    text-shadow: 2px 2px 2px black;
+}
+.hed{
+    text-align: center;
+    padding:10px 0px;
+}
